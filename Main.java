@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -12,5 +15,7 @@ public class Main {
         }
         s.close();
         System.out.println(h);
+        String a="hdi";
+        Map<Integer,Integer> hMap=new HashMap<>();
     }
 }
